@@ -1,0 +1,32 @@
+
+article{
+    padding: 10px;
+    background-color: darkcyan;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    justify-content: space-around;
+}
+
+article a{
+    padding: 2px;
+    text-align: center;
+}
+
+div{
+    background-color:black;
+    height: 600px;
+}
+
+footer{
+    padding: 2px;
+    width: 100%;
+    position: relative;
+    background-color: darkblue;
+}
+
+header{
+    background-color: darkblue;
+    text-align: center;
+    padding: 25px;
+}
