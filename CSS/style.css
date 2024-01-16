@@ -8,13 +8,12 @@ body {
 }
 
 header {
-    background-color: #838507; /* Color rojo 2 */
+    background-color: #838507; 
     color: white;    
     height: 50px;
     display: flex;
     justify-content: center;
     
-    /* text-align: center; */
 
     }
 
@@ -28,32 +27,32 @@ header h1{
 
 main {    
     margin: 0 auto;
-    padding: 1rem;     
+    padding: 16px;     
    
     width: 100%;
     height: 100%;
-    background-color: #009688; /* Un color de ejemplo */    
+    background-color: #009688;
 
 }
 
 
 .navbar {
-    background-color: #b0eb0f; /* Color rojo  */
+    background-color: #b0eb0f;
     color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0.5rem 2rem;
+    padding: 8px 32px;
 }
 
 .navbar ul {
     list-style-type: none;
     display: flex;
-    gap: 1rem;
+    gap: 16px;
 }
 
 .navbar li {
-    padding: 0.5rem 1rem;
+    padding: 8px 16px;
     cursor: pointer;    
 }
 
@@ -81,6 +80,6 @@ footer{
 
 
 .logo {
-    width: 80px; /* Ajustar según el tamaño real del logo */
+    width: 80px; 
     height: auto;
 }
