@@ -36,7 +36,7 @@ main {
 
 
 .main{
-    background-color: orange;
+    background-color: #838507; 
 }
 
 
@@ -76,10 +76,10 @@ main {
 }
 
 footer{
-    padding: 2px;
+    padding: 5px;
     width: 100%;
     position: relative;
-    background-color: darkblue;
+    background-color: #b0eb0f;
 }
 
 
@@ -93,5 +93,5 @@ footer{
    background-size: cover;
    background-position: center;
    background-repeat: no-repeat;
-   height: 500px;
+   height: 520px;
 }
