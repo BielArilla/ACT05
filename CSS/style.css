@@ -1,29 +1,28 @@
 
-body {
+html,body {
     font-family: 'Arial', sans-serif;
-    background-color: whitesmoke;   
+    background-color: whitesmoke;       
     height: 100%;
+    width: 100%;
     margin: 0;    
     font-size: 16px;    
 }
 
-header {
+.header-title {
     background-color: #838507; 
     color: white;    
     height: 50px;
     display: flex;
     justify-content: center;
+    font-family: 'Arial', sans-serif;
+    font-size: 10px;
+    font-weight: 800;
+    margin: 0; 
+    padding-top: 10px;   
     
 
     }
 
-header h1{
-    font-family: 'Arial', sans-serif;
-    font-size: 20px;
-    font-weight: 800;
-    margin: 0; 
-    padding-top: 10px;   
-}
 
 main {    
     margin: 0 auto;
@@ -75,6 +74,13 @@ main {
     text-decoration:underline;
 }
 
+a.seleccionado {
+    color: orange;
+    text-decoration: none;    
+}
+
+
+
 footer{
     width: 100%;
     position: relative;
@@ -88,11 +94,11 @@ footer{
 }
 
 .imgmain{
-   background-image: url(/IMAGES/Sport-World-Cup-2014-FIFA-Stadiums-Wallpaper-1920x1080.jpg);
+   background-image: url(../images/estadio.jpg);
    background-size: cover;
    background-position: center;
    background-repeat: no-repeat;
-   height: 520px;
+    height: 620px;
 }
 
 .contact{
@@ -133,3 +139,49 @@ footer{
     margin: 0;
 }
 
+input[type=email] {
+    width: 90%;
+    padding:2px;
+    margin: 8px 10px;
+    box-sizing: border-box;
+  }
+
+
+
+/** Responsive **/
+
+@media screen and (max-width: 768px) {
+    
+    .logo {
+        width: 60px; 
+        height: auto;
+    }
+    .navbar ul {
+        gap: 4px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+    
+.navbar {     
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+        padding: 8px 8px;
+        overflow: hidden;
+    }
+
+
+    .logo {
+        display: none;        
+    }
+    .navbar ul {
+        gap: 2px;
+    }
+
+
+
+}
