@@ -76,7 +76,6 @@ main {
 }
 
 footer{
-    padding: 5px;
     width: 100%;
     position: relative;
     background-color: #b0eb0f;
@@ -97,9 +96,11 @@ footer{
 }
 
 .contact{
-    padding: 30px 0px 30px 0px;
+    padding: 163px 0px 163px 0px;
     display: flex;
     justify-content: center;
+    height: auto;
+    width: 100%;
 }
 
 .cuadroformulario{
@@ -113,7 +114,7 @@ footer{
 
 .informacion{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-direction: column;
 }
 
@@ -121,5 +122,6 @@ footer{
     display: flex;
     justify-content: space-around;
     flex-direction: column;
+
 }
 
