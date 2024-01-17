@@ -96,7 +96,30 @@ footer{
    height: 520px;
 }
 
-.formulario{
+.contact{
+    padding: 30px 0px 30px 0px;
     display: flex;
+    justify-content: center;
+}
+
+.cuadroformulario{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: white;
+    border: 1px solid black;
+    width: 50%;
+}
+
+.informacion{
+    display: flex;
+    justify-content: space-around;
     flex-direction: column;
 }
+
+.formulario{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
