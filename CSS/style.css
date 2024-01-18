@@ -18,9 +18,8 @@ html,body {
     font-size: 10px;
     font-weight: 800;
     margin: 0; 
-    padding-top: 10px;   
+    padding-top: 10px;
     
-
     }
 
 
@@ -31,6 +30,10 @@ main {
     height: 100%;
     background-color: #838507; 
 
+}
+
+.main-title{
+    padding-left: 20px;
 }
 
 
@@ -117,6 +120,7 @@ footer{
     width: 50%;
 }
 
+
 .informacion{
     display: flex;
     justify-content: center;
@@ -129,6 +133,7 @@ footer{
     flex-direction: column;
     padding: 30px 0px 30px 0px;
 }
+
 
 .blog{
     background-image: url(../IMAGES/construccion.jpg);
@@ -174,6 +179,45 @@ input[type=email] {
 
   }
 
+  .main-about{
+    display: flex;
+    background-color: #838507;
+    padding: 10px;
+
+  }
+
+  .about{
+    background-color: #b0eb0f;
+    margin: 20px
+  }
+
+  .about-content p{
+    margin: 20px;
+    padding: 20px;
+  }
+
+  .content1{
+    display: flex;
+    padding-bottom: 10px;
+  }
+
+  .content2{
+    padding: 10px 0px 10px 0px;
+  }
+
+  .content2-images{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .content3{
+    display: flex;
+    padding-top: 20px;
+  }
+
+  .content3-image{
+    padding: 40px 20px 20px 20px;
+  }
   .carnet{
     margin: 5px;
   }
@@ -185,13 +229,13 @@ input[type=email] {
   .carnet-text{
     background-color: #b0eb0f;
     margin: 5px;
-    padding: 3px;
+    padding: 3px 10px 3px 10px
   }
 
   .entradas-text{
     background-color: #b0eb0f;
     margin: 5px;
-    padding: 3px;
+    padding: 3px 10px 3px 10px
   }
 
 
