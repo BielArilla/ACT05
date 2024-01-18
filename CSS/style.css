@@ -163,6 +163,7 @@ input[type=email] {
     padding:2px;
     margin: 8px 10px;
     box-sizing: border-box;
+    resize: none;
   }
 
   button{
@@ -176,6 +177,7 @@ input[type=email] {
     display: flex;
     background-color: #838507;
     padding: 10px;
+    height: 85%;
 
   }
 
@@ -251,6 +253,28 @@ input[type=email] {
     .navbar ul {
         gap: 4px;
     }
+
+    .imgcontent1{
+        display: none;
+    }
+
+    .masculino{
+        display: none;
+    }
+
+    .femenino{
+        display: none;
+
+    }
+
+    .futbol-base{
+        display: none;
+    }
+
+    .cuadroformulario{
+        flex-direction: column;
+    }
+
 }
 
 
@@ -275,5 +299,13 @@ input[type=email] {
     }
 
 
+}
 
+
+
+@media screen and (max-width: 450px){
+    .main-services{
+        flex-direction: column;
+        height: auto;
+    }
 }
