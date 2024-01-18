@@ -146,6 +146,54 @@ input[type=email] {
     box-sizing: border-box;
   }
 
+  input[type=number]{
+    width: 90%;
+    padding:2px;
+    margin: 3px 10px;
+    box-sizing: border-box;
+  }
+
+  textarea{
+    width: 90%;
+    padding:2px;
+    margin: 8px 10px;
+    box-sizing: border-box;
+  }
+
+  button{
+    width: 90%;
+    padding:2px;
+    margin: 8px 10px;
+    box-sizing: border-box;
+  }
+
+  .main-services{
+    display: flex;
+    background-color: #838507;
+    padding: 10px;
+
+  }
+
+  .carnet{
+    margin: 5px;
+  }
+
+  .entradas{
+    margin: 5px;
+  }
+
+  .carnet-text{
+    background-color: #b0eb0f;
+    margin: 5px;
+    padding: 3px;
+  }
+
+  .entradas-text{
+    background-color: #b0eb0f;
+    margin: 5px;
+    padding: 3px;
+  }
+
 
 
 /** Responsive **/
